@@ -1,0 +1,1001 @@
+Name,Company,ModelYear,Price
+911,Porsche,2005,2336.33
+Aerostar,Ford,1992,5106.22
+1000,Pontiac,1986,4537.18
+Pacifica,Chrysler,2005,4960.23
+Navigator,Lincoln,2008,5754.82
+M-Class,Mercedes-Benz,1999,5500.78
+Sunbird,Pontiac,1983,3782.12
+SLK-Class,Mercedes-Benz,2008,4707.93
+MKX,Lincoln,2010,3918.16
+H2,Hummer,2004,5713.56
+Sienna,Toyota,1998,4023.90
+8 Series,BMW,1996,2227.44
+Ram 1500,Dodge,2010,5477.21
+Mystique,Mercury,1999,3391.48
+Esteem,Suzuki,1996,2500.20
+Miata MX-5,Mazda,2000,4086.70
+Pacifica,Chrysler,2005,2538.23
+XC90,Volvo,2005,4892.23
+TT,Audi,2011,3753.76
+EX,Infiniti,2010,5815.04
+370Z,Nissan,2011,2139.56
+LS,Lexus,2001,2237.65
+Pajero,Mitsubishi,2001,4679.95
+Vanagon,Volkswagen,1984,5015.54
+626,Mazda,2000,5229.65
+Elantra,Hyundai,2007,3821.41
+C-Class,Mercedes-Benz,2009,3060.94
+Yukon,GMC,1993,3207.13
+SLR McLaren,Mercedes-Benz,2008,4240.70
+Esprit,Lotus,1986,3553.10
+Camaro,Chevrolet,1975,5872.41
+E-Class,Mercedes-Benz,2007,5166.84
+960,Volvo,1992,3289.67
+Galant,Mitsubishi,1993,4102.30
+Savana 2500,GMC,1997,2440.08
+XC90,Volvo,2006,3641.50
+RX,Lexus,2001,2605.21
+Tempo,Ford,1989,3440.32
+XK,Jaguar,2012,2958.16
+GTI,Volkswagen,1999,2600.60
+Skyhawk,Buick,1988,5715.07
+207,Peugeot,2007,5863.78
+500SEC,Mercedes-Benz,1993,2538.08
+Regal,Buick,2003,4638.99
+Skyhawk,Buick,1988,4456.43
+Skylark,Buick,1991,5041.60
+Celica,Toyota,2003,2125.54
+Sephia,Kia,1995,3977.30
+Truck,Mitsubishi,1992,5487.49
+LTD,Ford,1986,5301.03
+Corsica,Chevrolet,1995,5208.57
+Galant,Mitsubishi,1998,4563.18
+Forester,Subaru,2008,2639.33
+Legend,Acura,1992,2039.65
+Ram 1500 Club,Dodge,1998,4775.30
+Suburban 1500,GMC,1993,5066.82
+Escalade ESV,Cadillac,2012,4326.88
+Crown Victoria,Ford,2006,3155.62
+Silhouette,Oldsmobile,2002,3084.60
+Accord,Honda,1998,4230.36
+Escort,Ford,1999,3169.06
+Yukon,GMC,2004,3388.38
+Tempo,Ford,1987,5981.07
+Frontier,Nissan,2001,4861.48
+Prius,Toyota,2006,4703.11
+Pilot,Honda,2008,2450.69
+Daytona,Dodge,1993,5283.43
+Impala,Chevrolet,1995,2132.84
+Ion,Saturn,2006,2765.75
+S6,Audi,2008,5842.95
+Expedition EL,Ford,2007,2160.42
+W201,Mercedes-Benz,1992,3628.94
+960,Volvo,1995,4289.95
+Concorde,Chrysler,1998,2044.51
+Acadia,GMC,2007,3578.68
+Town Car,Lincoln,1992,2959.81
+TT,Audi,2006,3660.65
+Bravada,Oldsmobile,1993,3389.68
+Freestar,Ford,2004,4761.47
+Dakota Club,Dodge,1998,5572.42
+M-Class,Mercedes-Benz,2011,5187.59
+Sunfire,Pontiac,2004,2472.20
+Express 3500,Chevrolet,2000,5710.93
+F450,Ford,2012,5608.88
+Altima,Nissan,2008,5590.54
+Esteem,Suzuki,1998,5019.63
+MKZ,Lincoln,2010,5079.92
+rio,Volkswagen,1999,4783.22
+Sierra,GMC,2011,2006.46
+Yukon XL 2500,GMC,2007,4904.41
+Sierra 3500,GMC,2011,5766.61
+Gallardo,Lamborghini,2007,2843.93
+F150,Ford,2011,5907.51
+Excursion,Ford,2000,5361.30
+Trooper,Isuzu,1996,3376.67
+240SX,Nissan,1998,4242.73
+Town Car,Lincoln,1988,4635.10
+NSX,Acura,1994,3918.08
+RX,Lexus,2008,2186.89
+Colorado,Chevrolet,2005,4405.26
+Millenia,Mazda,1996,3125.72
+E-Class,Mercedes-Benz,1994,3742.08
+Sierra 2500,GMC,2009,4819.58
+Chariot,Mitsubishi,1986,5325.30
+Sebring,Chrysler,2004,5260.26
+Alcyone SVX,Subaru,1996,5019.61
+Forester,Subaru,2002,2362.02
+T100 Xtra,Toyota,1997,2438.04
+M3,BMW,2009,5698.96
+Elantra,Hyundai,2009,3683.13
+B-Series Plus,Mazda,2004,3044.28
+Galant,Mitsubishi,1994,3473.90
+F-Series Super Duty,Ford,2012,4310.60
+Aspire,Ford,1997,4848.74
+Acclaim,Plymouth,1993,5248.67
+350Z,Nissan,2004,4297.67
+Crown Victoria,Ford,1995,2542.75
+Suburban 1500,GMC,1998,3031.96
+Miata MX-5,Mazda,2006,5318.85
+Falcon,Ford,1966,3158.30
+V70,Volvo,2004,4646.92
+Solara,Toyota,2001,2665.16
+New Yorker,Chrysler,1994,2021.50
+Flex,Ford,2011,5167.13
+Corsica,Chevrolet,1995,5031.24
+Z4 M,BMW,2009,3034.89
+GTI,Volkswagen,2003,4305.23
+Pathfinder Armada,Nissan,2004,3594.34
+Mariner,Mercury,2011,2646.33
+Murciélago,Lamborghini,2007,2875.93
+Talon,Eagle,1995,3026.47
+GTI,Volkswagen,2004,2460.80
+Exige,Lotus,2008,5227.49
+Yaris,Toyota,2007,3176.86
+Grand Am,Pontiac,1996,3238.25
+Crown Victoria,Ford,2007,3598.89
+B-Series,Mazda,1991,4703.61
+CX-7,Mazda,2009,4238.44
+R8,Audi,2009,2413.82
+Astro,Chevrolet,1993,4019.76
+A6,Audi,1999,5105.92
+Ram 1500,Dodge,1995,2080.55
+Astro,Chevrolet,1995,3949.84
+Catera,Cadillac,1999,2507.19
+Integra,Acura,1999,3679.01
+Taurus,Ford,1995,2163.40
+GX,Lexus,2004,3727.68
+QX,Infiniti,2011,5618.43
+Firebird,Pontiac,1969,4035.46
+RS6,Audi,2003,4730.74
+H3,Hummer,2010,3563.03
+Outback,Subaru,2007,2206.73
+Pilot,Honda,2010,5888.90
+Savana 3500,GMC,1999,5887.28
+Yukon XL 2500,GMC,2009,2841.12
+Ram 3500,Dodge,2009,4488.92
+Fit,Honda,2009,2906.08
+Ram 2500 Club,Dodge,1999,5768.06
+Malibu,Chevrolet,2006,3912.61
+ES,Lexus,1995,2210.37
+TrailBlazer,Chevrolet,2007,2341.10
+Astro,Chevrolet,2000,4051.02
+911,Porsche,1997,3100.71
+LeSabre,Buick,1992,2811.57
+QX,Infiniti,2000,5501.94
+Sierra,GMC,2012,4965.50
+Electra,Buick,1988,5968.24
+SLK-Class,Mercedes-Benz,2009,3430.71
+Silhouette,Oldsmobile,2001,4271.40
+V40,Volvo,2000,2821.34
+Park Avenue,Buick,2004,5464.18
+Chariot,Mitsubishi,1993,2065.28
+Sierra 2500,GMC,2003,3035.91
+Sierra 2500,GMC,2006,5828.53
+Pilot,Honda,2008,5540.79
+Veloster,Hyundai,2012,3627.77
+S6,Audi,2007,5412.45
+Econoline E250,Ford,1996,4475.16
+CR-V,Honda,2001,3537.09
+Skylark,Buick,1985,2516.13
+Trooper,Isuzu,1995,5045.36
+Continental GTC,Bentley,2012,2430.43
+Miata MX-5,Mazda,1992,4952.66
+Tredia,Mitsubishi,1985,2589.35
+Town & Country,Chrysler,2001,4685.76
+Quattroporte,Maserati,2006,2163.28
+Armada,Nissan,2008,5436.84
+VehiCROSS,Isuzu,1999,2470.10
+Envoy,GMC,2009,2186.22
+Continental GT,Bentley,2010,3597.86
+SJ,Suzuki,1990,5707.10
+Econoline E350,Ford,1992,2507.03
+F-Series,Ford,1996,5619.40
+80,Audi,1991,2792.05
+Yukon XL 2500,GMC,2005,3568.24
+Murciélago,Lamborghini,2010,5545.00
+Intrigue,Oldsmobile,1998,3560.95
+Riviera,Buick,1993,5121.94
+Neon,Dodge,1999,4139.14
+Frontier,Nissan,2009,4147.57
+Grand Caravan,Dodge,2007,4060.66
+Th!nk,Ford,2000,5160.40
+TL,Acura,2006,5096.98
+LS,Lincoln,2001,5992.22
+Explorer Sport Trac,Ford,2005,4315.38
+9000,Saab,1997,3064.32
+Panamera,Porsche,2013,2952.65
+Maxima,Nissan,2002,3312.20
+Pajero,Mitsubishi,1997,4639.57
+SLK-Class,Mercedes-Benz,2003,2011.00
+Forester,Subaru,2004,5361.59
+Mystique,Mercury,2000,3148.62
+Legend,Acura,1990,5372.93
+Ranger,Ford,1993,2422.27
+Blazer,Chevrolet,1998,3788.99
+Cougar,Mercury,2001,2489.97
+Mark VII,Lincoln,1984,3729.27
+Camaro,Chevrolet,1999,3384.01
+Cabriolet,Volkswagen,1999,2128.62
+Ram Van 2500,Dodge,2002,4204.95
+Express 3500,Chevrolet,2005,2729.36
+Suburban 1500,Chevrolet,2008,4310.26
+Crown Victoria,Ford,2009,2663.65
+Z4,BMW,2012,4747.97
+Discovery,Land Rover,2011,5222.33
+LeSabre,Buick,1999,2402.09
+C/V,Ram,2012,4911.27
+PT Cruiser,Chrysler,2009,2113.48
+XJ Series,Jaguar,1997,5684.52
+Civic,Honda,1988,2744.14
+Venture,Chevrolet,1998,2563.12
+Town Car,Lincoln,2009,4093.54
+Crown Victoria,Ford,2010,3484.75
+88,Oldsmobile,1998,5465.44
+Suburban 2500,Chevrolet,2004,2586.17
+Town & Country,Chrysler,2007,5944.64
+Sebring,Chrysler,2001,5618.21
+Dakota Club,Dodge,1992,5281.41
+Laser,Plymouth,1991,2004.90
+Titan,Nissan,2005,5021.30
+Lynx,Mercury,1986,2680.53
+MR2,Toyota,2004,4708.09
+4Runner,Toyota,2003,5314.89
+V50,Volvo,2005,4713.50
+Vanagon,Volkswagen,1984,4359.86
+SJ,Suzuki,1991,5430.58
+Pathfinder,Nissan,2001,4594.35
+DB9,Aston Martin,2006,2591.10
+E-Series,Ford,1990,2713.71
+Sorento,Kia,2007,4415.31
+S80,Volvo,2005,2114.91
+VUE,Saturn,2010,4881.95
+Express 1500,Chevrolet,2002,2734.05
+Range Rover,Land Rover,2002,2156.49
+Cherokee,Jeep,2001,4609.73
+Caprice Classic,Chevrolet,1994,4461.76
+Tacoma,Toyota,2000,4963.98
+F350,Ford,2011,3096.03
+Sierra 1500,GMC,2011,5787.75
+M6,BMW,2007,5526.89
+Phaeton,Volkswagen,2004,3440.29
+Montero,Mitsubishi,1992,2121.77
+Gallardo,Lamborghini,2005,3572.74
+CLK-Class,Mercedes-Benz,1999,2216.86
+GS,Lexus,2007,2123.82
+2500,Ram,2011,5538.83
+900,Saab,1991,5570.45
+Tucson,Hyundai,2007,2657.78
+Z8,BMW,2002,2599.31
+SL-Class,Mercedes-Benz,1998,2229.15
+X3,BMW,2005,4089.86
+Express 3500,Chevrolet,2000,2867.60
+Loyale,Subaru,1991,3038.94
+Spyder,Maserati,2003,2566.30
+Monza,Chevrolet,1975,5363.22
+Silhouette,Oldsmobile,1994,3756.03
+Cordia,Mitsubishi,1987,3462.60
+XK,Jaguar,2007,3694.37
+Ram 1500,Dodge,2008,5058.35
+Quest,Nissan,2002,5301.58
+Express,Chevrolet,2010,4373.72
+Trans Sport,Pontiac,1996,5845.64
+Titan,Nissan,2005,3017.88
+3500 Club Coupe,GMC,1992,4996.38
+Sunfire,Pontiac,1997,5130.41
+XT,Subaru,1988,3282.24
+Model T,Ford,1909,2255.94
+SL-Class,Mercedes-Benz,1994,2473.98
+Aspire,Ford,1994,4179.31
+Chariot,Mitsubishi,1989,4458.43
+XK Series,Jaguar,2002,3397.29
+S8,Audi,2009,2109.66
+B-Series Plus,Mazda,2003,5354.96
+G-Series 2500,Chevrolet,1997,4924.45
+Express 1500,Chevrolet,2006,2853.42
+GTI,Volkswagen,2004,4868.70
+F-Series,Ford,1992,2185.70
+NSX,Acura,1992,5706.28
+Intrepid,Dodge,1995,4165.85
+Grand Am,Pontiac,2000,5834.91
+I,Infiniti,2003,5335.72
+Discovery,Land Rover,1997,3521.66
+LS,Lexus,2006,5448.13
+GT,Ford,2005,5106.44
+Cutlass,Oldsmobile,1999,4594.45
+Canyon,GMC,2010,5868.20
+M3,BMW,2002,4034.59
+New Beetle,Volkswagen,2004,3416.79
+Pajero,Mitsubishi,2001,3929.79
+Murciélago,Lamborghini,2006,5313.16
+4Runner,Toyota,2004,4577.00
+LS,Lexus,2010,3147.63
+E250,Ford,2012,5825.63
+DB9,Aston Martin,2010,5899.03
+Outback,Subaru,2011,4631.63
+Range Rover,Land Rover,2006,5061.09
+Echo,Toyota,2005,5449.34
+FJ Cruiser,Toyota,2008,4229.85
+Trooper,Isuzu,1993,5303.88
+Sebring,Chrysler,1997,3007.05
+Express 3500,Chevrolet,2000,5210.58
+Entourage,Hyundai,2008,2618.28
+Cooper Clubman,MINI,2012,3773.21
+Leone,Subaru,1989,5314.05
+MX-6,Mazda,1997,4725.20
+Jimmy,GMC,1992,5628.16
+Rio5,Kia,2008,5222.01
+Cobalt SS,Chevrolet,2008,5852.38
+R-Class,Mercedes-Benz,2010,2425.40
+Focus,Ford,2005,3708.35
+Suburban 2500,Chevrolet,2002,2469.63
+Bonneville,Pontiac,2000,5049.82
+Camry,Toyota,2008,3468.48
+Ranger,Ford,1995,4802.01
+Passport,Honda,1999,3256.25
+Corolla,Toyota,2002,3642.61
+Mustang,Ford,1973,4850.81
+New Yorker,Chrysler,1992,2598.14
+S-Class,Mercedes-Benz,1984,3988.61
+Passat,Volkswagen,2001,4668.11
+Clubman,MINI,2008,2764.86
+Escape,Ford,2001,3585.60
+Celica,Toyota,1994,4506.84
+Tacoma,Toyota,2010,4084.21
+Corvette,Chevrolet,1972,5522.39
+Flex,Ford,2010,5445.81
+XJ,Jaguar,2010,3860.83
+LX,Lexus,2009,5194.93
+E-Series,Ford,2007,2836.93
+B-Series,Mazda,2001,2027.65
+Miata MX-5,Mazda,2012,3970.28
+Azera,Hyundai,2007,4180.76
+Diamante,Mitsubishi,1993,3280.37
+Escape,Ford,2005,5250.23
+900,Saab,1991,2477.15
+Rally Wagon 2500,GMC,1993,4626.39
+Z3,BMW,2002,2131.15
+Swift,Suzuki,1996,5053.32
+Fleetwood,Cadillac,1994,5949.48
+Vitara,Suzuki,2001,2720.34
+Legacy,Subaru,1999,5958.17
+Grand Marquis,Mercury,1987,2444.17
+Custom Cruiser,Oldsmobile,1992,2609.49
+G5,Pontiac,2008,5963.40
+Arnage,Bentley,2008,2747.64
+SRX,Cadillac,2012,5671.42
+Tempo,Ford,1986,3657.37
+Allante,Cadillac,1993,2520.00
+Sierra 1500,GMC,2005,4468.74
+Rio,Kia,2011,5841.16
+Space,Isuzu,1993,2446.70
+Celica,Toyota,2002,3540.51
+B-Series,Mazda,1994,2882.26
+S-Class,Mercedes-Benz,1985,5306.44
+CLS-Class,Mercedes-Benz,2007,2369.07
+Montana,Pontiac,2003,3437.94
+5 Series,BMW,2005,2363.33
+Pajero,Mitsubishi,1987,3990.43
+9-3,Saab,1999,5587.78
+Elan,Lotus,1993,2161.86
+Tucson,Hyundai,2007,3514.21
+Silverado 2500,Chevrolet,2005,4666.92
+Familia,Mazda,1992,3915.61
+Mazda2,Mazda,2012,2663.41
+RX-8,Mazda,2005,5054.43
+Taurus,Ford,1990,3333.35
+S4,Audi,1993,5631.75
+Rodeo,Isuzu,1992,2806.77
+Prizm,Geo,1994,4410.48
+G,Infiniti,2008,4769.06
+Montero Sport,Mitsubishi,2003,2211.64
+Equinox,Chevrolet,2008,2824.09
+New Beetle,Volkswagen,2004,5648.73
+Capri,Mercury,1993,2310.89
+ES,Lexus,2000,4930.08
+Escalade ESV,Cadillac,2008,5315.64
+CR-V,Honda,2001,4202.07
+SVX,Subaru,1996,3485.36
+Skylark,Buick,1998,3420.21
+3500,Ram,2011,3764.15
+DeVille,Cadillac,1994,5218.08
+98,Oldsmobile,1993,5644.36
+Eclipse,Mitsubishi,2000,4872.83
+Grand Prix,Pontiac,1984,2830.71
+4Runner,Toyota,1995,4582.89
+Escort,Ford,1997,4576.69
+Savana 3500,GMC,2011,3851.19
+Mirage,Mitsubishi,1998,2443.45
+CX-7,Mazda,2007,5013.27
+Voyager,Plymouth,1999,5945.03
+929,Mazda,1990,4059.60
+Taurus,Ford,2007,2833.39
+Protege,Mazda,2000,2850.36
+Thunderbird,Ford,1994,2407.67
+Fiero,Pontiac,1984,3758.80
+CTS-V,Cadillac,2012,5891.54
+Yukon,GMC,1994,4360.50
+Stratus,Dodge,2000,5525.27
+Yukon XL 1500,GMC,2002,5662.05
+Camry,Toyota,1992,3697.10
+Explorer,Ford,1997,5181.96
+Intrepid,Dodge,1993,4985.22
+X-Type,Jaguar,2004,3832.00
+Corvette,Chevrolet,2006,3753.82
+Sportage,Kia,2001,3569.49
+Silverado 1500,Chevrolet,2002,3851.46
+98,Oldsmobile,1992,3718.16
+80,Audi,1989,2478.08
+MR2,Toyota,2003,5064.51
+Corvette,Chevrolet,1959,5828.50
+Legacy,Subaru,2012,5557.11
+H3,Hummer,2007,4797.01
+Caliber,Dodge,2012,4555.85
+VehiCROSS,Isuzu,2001,5379.94
+X-Type,Jaguar,2004,5824.67
+SRX,Cadillac,2007,3595.46
+Trans Sport,Pontiac,1998,5781.77
+Outlander,Mitsubishi,2011,5206.69
+Taurus,Ford,2001,4053.00
+Boxster,Porsche,2012,3795.09
+Mirage,Mitsubishi,1984,4433.39
+Grand Prix,Pontiac,1990,3976.51
+Echo,Toyota,2003,3342.25
+SLK-Class,Mercedes-Benz,1998,4294.45
+Aerostar,Ford,1989,2391.62
+CTS-V,Cadillac,2011,2601.04
+7 Series,BMW,1993,3786.54
+Escalade,Cadillac,2012,5646.18
+S10,Chevrolet,1998,2070.14
+Tracker,Geo,1994,4621.25
+SL-Class,Mercedes-Benz,2011,2459.15
+Cobalt,Chevrolet,2006,3938.18
+Diablo,Lamborghini,1990,3062.09
+Silverado 1500,Chevrolet,2001,4598.17
+Sidekick,Suzuki,1997,3314.31
+Lucerne,Buick,2007,4999.77
+Colt,Plymouth,1994,5325.47
+Galant,Mitsubishi,1999,3172.90
+Colt,Dodge,1994,2995.50
+DB9,Aston Martin,2007,2454.58
+X6 M,BMW,2011,5376.39
+rio,Volkswagen,1995,5291.48
+350Z,Nissan,2009,4836.47
+Tacoma Xtra,Toyota,1999,3106.08
+Cooper,MINI,2002,4673.90
+Fiero,Pontiac,1984,2389.49
+2500,Chevrolet,1999,3112.30
+Eurovan,Volkswagen,2003,2822.33
+Riviera,Buick,1992,2665.30
+Sunfire,Pontiac,1995,5185.77
+Tracer,Mercury,1994,5267.10
+Justy,Subaru,1988,2230.53
+A5,Audi,2012,5064.38
+Town & Country,Chrysler,2007,2790.11
+Altima,Nissan,1995,2721.25
+Range Rover,Land Rover,1997,3816.53
+CL,Acura,2001,2092.18
+Corolla,Toyota,2011,3366.83
+Escalade ESV,Cadillac,2005,3234.27
+Rendezvous,Buick,2002,5952.87
+Ranger,Ford,1992,2852.94
+GTI,Volkswagen,2009,2628.06
+Canyon,GMC,2012,4019.54
+Express 1500,Chevrolet,2004,2545.41
+SL-Class,Mercedes-Benz,1996,4949.69
+tC,Scion,2007,3812.29
+Escalade ESV,Cadillac,2009,2893.56
+Land Cruiser,Toyota,1999,4200.73
+Routan,Volkswagen,2010,4432.22
+Tundra,Toyota,2006,3683.32
+XC90,Volvo,2010,3497.91
+Mustang,Ford,2005,5975.67
+S40,Volvo,2007,4847.18
+Boxster,Porsche,2009,3827.63
+M5,BMW,2010,3307.78
+Malibu,Chevrolet,2009,3781.88
+Sonata,Hyundai,1996,2742.27
+Titan,Nissan,2010,3513.59
+Beretta,Chevrolet,1996,2268.44
+CX-7,Mazda,2011,5378.17
+Cavalier,Chevrolet,1992,2483.04
+Focus,Ford,2009,5232.56
+Gallardo,Lamborghini,2008,4682.60
+Oasis,Isuzu,1997,3069.80
+Leganza,Daewoo,2002,4209.24
+Sierra 1500,GMC,2009,4346.00
+Fiero,Pontiac,1988,4872.21
+Cube,Nissan,2010,3408.18
+Discovery,Land Rover,2012,5662.17
+Endeavor,Mitsubishi,2010,4877.00
+RX-8,Mazda,2008,3520.66
+Corvette,Chevrolet,2010,4776.62
+Express 3500,Chevrolet,2009,5256.67
+228,Maserati,1990,4574.42
+Tiburon,Hyundai,2000,5498.46
+i-370,Isuzu,2008,3678.86
+Tiburon,Hyundai,2006,2517.27
+968,Porsche,1995,2242.41
+325,BMW,2004,2766.21
+Evora,Lotus,2011,3393.83
+Mazda3,Mazda,2012,4222.25
+Bravada,Oldsmobile,2000,2821.01
+Camaro,Chevrolet,1982,3087.31
+Rendezvous,Buick,2002,5310.19
+1500 Club Coupe,GMC,1992,4074.20
+S60,Volvo,2008,3580.54
+Silverado 2500,Chevrolet,2002,3472.74
+Sentra,Nissan,1993,4138.54
+Ranger,Ford,1996,3208.50
+350Z,Nissan,2009,2994.97
+TrailBlazer,Chevrolet,2002,3183.10
+1500 Club Coupe,GMC,1996,2562.18
+Grand Marquis,Mercury,2011,2810.35
+Protege,Mazda,2003,5393.26
+Aerostar,Ford,1996,5579.61
+Avenger,Dodge,1998,3439.54
+Mirage,Mitsubishi,1997,4448.77
+RX,Lexus,2010,2138.51
+Altima,Nissan,2004,4719.12
+Tucson,Hyundai,2006,2086.34
+4000,Audi,1987,3535.94
+GTO,Mitsubishi,1990,3556.02
+Crossfire,Chrysler,2007,3441.99
+Escape,Ford,2011,4783.07
+Liberty,Jeep,2004,3361.84
+Compass,Jeep,2007,5575.04
+Legacy,Subaru,2004,3145.33
+Quattroporte,Maserati,1986,3577.00
+Focus,Ford,2010,5140.84
+400E,Mercedes-Benz,1992,2603.50
+Defender,Land Rover,1997,5605.91
+GX,Lexus,2009,5935.15
+Previa,Toyota,1994,3345.40
+Yukon,GMC,1996,4131.57
+Tundra,Toyota,2000,4995.49
+A5,Audi,2008,4313.53
+S-Series,Saturn,1999,4754.92
+G-Series G10,Chevrolet,1992,4155.32
+Neon,Dodge,2002,4903.55
+Land Cruiser,Toyota,1998,5168.97
+Sigma,Mitsubishi,1989,2772.06
+Passport,Honda,1998,3422.58
+Savana 1500,GMC,2004,4508.65
+200,Audi,1990,4361.61
+M,Infiniti,2006,5009.40
+Evora,Lotus,2011,3892.93
+Truck Xtracab SR5,Toyota,1989,3112.84
+Tribute,Mazda,2003,2961.71
+Bonneville,Pontiac,1987,4537.48
+500,Fiat,2012,5975.36
+Diablo,Lamborghini,1992,5667.01
+Impala,Chevrolet,2009,4200.13
+X5,BMW,2010,2557.02
+ES,Lexus,2002,2051.25
+Discovery,Land Rover,2002,3503.96
+Mazda3,Mazda,2005,3855.50
+Sienna,Toyota,2004,4695.27
+RX,Lexus,2006,2079.84
+F-Series,Ford,2009,5052.62
+Acadia,GMC,2008,2945.36
+Grand Cherokee,Jeep,2011,4561.25
+B-Series,Mazda,2000,2235.59
+LTD,Ford,1986,3878.48
+E-Series,Ford,1990,4046.64
+RSX,Acura,2006,4219.12
+Intrepid,Dodge,1996,4331.46
+Cayman,Porsche,2006,2260.44
+740,Volvo,1992,3995.61
+Montego,Mercury,2006,4678.20
+Murano,Nissan,2004,4465.49
+Voyager,Plymouth,1996,5367.59
+EXP,Ford,1986,5587.35
+HHR,Chevrolet,2009,2108.82
+3 Series,BMW,2000,4478.31
+Amanti,Kia,2004,5621.55
+Sienna,Toyota,2007,4204.74
+Cougar,Mercury,1986,2273.61
+Odyssey,Honda,2007,3187.70
+SLR McLaren,Mercedes-Benz,2007,2846.99
+Karif,Maserati,1989,4260.36
+Sportage,Kia,2009,2065.91
+Equinox,Chevrolet,2009,2554.27
+Frontier,Nissan,1999,4723.07
+xA,Scion,2005,3060.53
+Navigator,Lincoln,2001,4323.42
+Silverado,Chevrolet,2010,5560.93
+Santa Fe,Hyundai,2003,2676.74
+Sentra,Nissan,2009,5469.85
+Rio,Kia,2003,3008.95
+CL-Class,Mercedes-Benz,2002,2618.05
+Trans Sport,Pontiac,1998,3031.87
+New Beetle,Volkswagen,2005,3084.81
+Expedition,Ford,2004,2598.11
+Odyssey,Honda,2011,4030.01
+Highlander,Toyota,2001,4166.13
+Marquis,Mercury,1985,5311.86
+Sunfire,Pontiac,2004,5191.63
+Grand Prix,Pontiac,1989,4496.02
+Cavalier,Chevrolet,1999,4232.16
+GS,Lexus,1996,4673.69
+Passport,Honda,1995,5778.54
+Grand Caravan,Dodge,2007,4824.51
+VUE,Saturn,2006,2385.62
+New Beetle,Volkswagen,2005,3823.49
+Civic Si,Honda,2006,5417.86
+Grand Am,Pontiac,1992,2752.23
+200SX,Nissan,1995,2083.80
+Cavalier,Chevrolet,1998,2688.86
+Sequoia,Toyota,2003,5150.85
+Hombre Space,Isuzu,1999,3847.77
+Q,Infiniti,1999,3834.17
+5 Series,BMW,2001,3492.27
+Spider,Alfa Romeo,1994,3509.49
+XJ,Jaguar,2006,4943.35
+Land Cruiser,Toyota,2011,5973.26
+Golf,Volkswagen,1996,3921.62
+F350,Ford,2007,2792.83
+Sequoia,Toyota,2010,4634.47
+Aviator,Lincoln,2004,4906.70
+Neon,Plymouth,1999,4568.38
+Falcon,Ford,1966,2108.33
+960,Volvo,1997,2702.64
+Jetta,Volkswagen,1987,4525.93
+LaCrosse,Buick,2011,4374.71
+Camaro,Chevrolet,1974,4744.08
+Aspire,Ford,1994,4785.27
+626,Mazda,1986,2228.14
+Voyager,Plymouth,1998,2159.45
+Sierra 1500,GMC,2007,3546.77
+Grand Cherokee,Jeep,2002,3314.07
+Torrent,Pontiac,2009,3033.21
+RL,Acura,1997,4545.20
+Montana,Pontiac,2003,4774.55
+Silverado 3500,Chevrolet,2001,4427.12
+Metro,Chevrolet,1998,5480.60
+Cherokee,Jeep,2001,4797.85
+Crown Victoria,Ford,1999,3411.12
+Navigator,Lincoln,2012,2377.03
+Fit,Honda,2008,5200.84
+Savana 3500,GMC,2004,2791.77
+164,Alfa Romeo,1992,2936.96
+Esprit Turbo,Lotus,1984,3722.39
+Monaco,Dodge,1992,2413.01
+Savana 1500,GMC,2000,3005.24
+Town & Country,Chrysler,1999,5760.26
+DeVille,Cadillac,1993,3787.89
+Tercel,Toyota,1998,2841.65
+Sebring,Chrysler,2009,3009.44
+6000,Pontiac,1990,2367.61
+Rally Wagon 2500,GMC,1992,2156.71
+Navigator,Lincoln,2001,2236.82
+Odyssey,Honda,2001,5938.63
+E-Series,Ford,2001,5207.94
+Continental,Bentley,2008,3319.00
+SLR McLaren,Mercedes-Benz,2009,3239.97
+Solara,Toyota,2003,4184.37
+JX,Infiniti,2013,2057.19
+Navigator L,Lincoln,2010,2452.19
+SLK-Class,Mercedes-Benz,2003,4528.05
+M6,BMW,2009,5940.72
+Eclipse,Mitsubishi,1997,2984.71
+F-Series,Ford,1988,4298.15
+GTO,Mitsubishi,1995,5891.44
+Accord Crosstour,Honda,2010,5096.54
+Express 1500,Chevrolet,1999,5377.08
+Escort,Ford,1989,5699.79
+A6,Audi,2001,3222.38
+Frontier,Nissan,2011,4879.00
+Grand Caravan,Dodge,2008,2936.44
+Yukon XL 2500,GMC,2001,3518.50
+626,Mazda,1988,2333.61
+Town Car,Lincoln,1989,5295.40
+F150,Ford,1998,3165.65
+Esprit,Lotus,2001,5294.71
+GTI,Volkswagen,2011,2530.09
+Escalade ESV,Cadillac,2010,2642.03
+F-Series,Ford,1987,3688.83
+DTS,Cadillac,2009,3273.99
+Tacoma,Toyota,2006,2434.34
+Premier,Eagle,1992,2959.67
+Colorado,Chevrolet,2008,3031.76
+626,Mazda,2000,3555.23
+Fleetwood,Cadillac,1992,3170.86
+Optima,Kia,2010,2749.69
+Avalanche 1500,Chevrolet,2003,5215.13
+G-Series G30,Chevrolet,1996,2600.73
+RAV4,Toyota,1998,3601.31
+Q,Infiniti,1992,2529.50
+Q,Infiniti,1997,4689.18
+350Z,Nissan,2006,5406.28
+Sonoma,GMC,2002,2913.54
+Cooper Clubman,MINI,2008,2412.23
+Ram 1500 Club,Dodge,2000,4096.70
+Concorde,Chrysler,1999,4138.50
+Eurovan,Volkswagen,2001,2349.63
+Verano,Buick,2012,5838.45
+H3,Hummer,2006,5511.45
+Suburban 1500,Chevrolet,1995,5418.92
+Silverado,Chevrolet,2011,4472.87
+X-Type,Jaguar,2004,5892.03
+Pathfinder,Nissan,1993,2940.26
+Sonata,Hyundai,1999,2847.22
+3500,Chevrolet,1994,5765.62
+S2000,Honda,2005,4329.26
+Pajero,Mitsubishi,1993,3259.36
+Aerostar,Ford,1991,2014.80
+Space,Isuzu,1994,2571.78
+Ram 2500,Dodge,1998,5094.89
+Ram 1500,Dodge,2005,4932.45
+Sierra 1500,GMC,2003,2541.97
+F150,Ford,2004,5247.53
+W201,Mercedes-Benz,1984,3924.44
+Golf,Volkswagen,2012,4113.67
+525,BMW,2004,5044.57
+Sportage,Kia,2001,2991.93
+CL-Class,Mercedes-Benz,2005,3993.65
+Range Rover,Land Rover,1995,4708.57
+G-Series G20,Chevrolet,1993,5593.57
+H3,Hummer,2008,4459.31
+Town & Country,Chrysler,2008,5021.69
+V70,Volvo,2010,2546.65
+Equinox,Chevrolet,2009,5873.41
+Club Wagon,Ford,1996,5286.07
+Savana 3500,GMC,2007,4049.85
+Colt,Plymouth,1994,4442.47
+E-Class,Mercedes-Benz,1990,4111.76
+Corrado,Volkswagen,1991,3694.16
+STS-V,Cadillac,2009,4393.40
+STS,Cadillac,2011,3271.17
+Bonneville,Pontiac,2005,5858.52
+Envoy,GMC,2006,2319.97
+Metro,Chevrolet,1999,3591.18
+Mirage,Mitsubishi,1995,2877.13
+Cayenne,Porsche,2013,3079.33
+LTD,Ford,1986,2835.20
+3000GT,Mitsubishi,1995,2708.75
+911,Porsche,1998,4928.82
+Biturbo,Maserati,1987,3493.86
+Firefly,Pontiac,1991,4391.84
+Mountaineer,Mercury,2007,4958.03
+ZDX,Acura,2011,3797.68
+Sorento,Kia,2006,3873.76
+Tucson,Hyundai,2009,2574.30
+Montana,Pontiac,2005,5747.84
+Grand Vitara,Suzuki,2000,3402.33
+V70,Volvo,2003,4540.95
+Cooper Clubman,MINI,2011,5395.89
+Mustang,Ford,1980,2306.83
+LeMans,Pontiac,1991,4687.38
+S-Class,Mercedes-Benz,1998,4570.55
+Avenger,Dodge,1999,4093.37
+Yukon XL 1500,GMC,2011,4610.04
+G-Class,Mercedes-Benz,2008,5740.02
+Eclipse,Mitsubishi,2002,3949.59
+Rainier,Buick,2005,4173.24
+Metro,Chevrolet,1998,4231.93
+Grand Marquis,Mercury,2009,5702.49
+Blazer,Chevrolet,2005,4976.46
+928,Porsche,1994,3210.23
+S-Type,Jaguar,2008,2428.68
+Corsica,Chevrolet,1996,4331.17
+Grand Vitara,Suzuki,2001,4588.89
+Touareg,Volkswagen,2004,4882.31
+Cougar,Mercury,1984,3219.14
+G5,Pontiac,2008,2154.75
+Blazer,Chevrolet,1995,4985.12
+SLK-Class,Mercedes-Benz,2011,5090.95
+Blazer,Chevrolet,1997,2058.43
+RL,Acura,2008,5746.42
+Mirage,Mitsubishi,1996,4470.20
+RX-7,Mazda,1995,5433.84
+Continental GT,Bentley,2008,4564.01
+Explorer Sport Trac,Ford,2010,2719.23
+Firebird,Pontiac,1988,3931.10
+LeSabre,Buick,2001,3806.66
+G,Infiniti,2009,5611.14
+626,Mazda,1993,3809.93
+9-2X,Saab,2005,5784.61
+Legacy,Subaru,1989,3701.01
+S-Class,Mercedes-Benz,1984,4819.55
+Mazda5,Mazda,2010,5245.58
+A6,Audi,2004,4266.05
+Eurovan,Volkswagen,1997,3460.48
+M,Infiniti,2003,2329.84
+Savana 2500,GMC,2001,2184.53
+Thunderbird,Ford,1965,2144.54
+Esprit Turbo,Lotus,1984,4121.35
+Leganza,Daewoo,1999,2983.48
+Catera,Cadillac,2001,2154.08
+LX,Lexus,2002,3619.10
+G8,Pontiac,2008,3229.12
+TSX,Acura,2009,4411.35
+Sparrow,Corbin,2004,2989.85
+Outlander,Mitsubishi,2011,4545.45
+M6,BMW,2009,4074.11
+Spectra5,Kia,2006,4406.68
+Azera,Hyundai,2009,3166.93
+M-Class,Mercedes-Benz,2006,2937.75
+GTO,Pontiac,1968,4920.57
+9-3,Saab,2010,2285.86
+Prelude,Honda,1997,2197.74
+Matrix,Toyota,2010,5911.08
+V50,Volvo,2005,5936.59
+Grand Am,Pontiac,2004,5300.80
+Bonneville,Pontiac,1990,5709.55
+Sunbird,Pontiac,1986,3166.62
+Electra,Buick,1987,3359.02
+Avalanche,Chevrolet,2010,3966.06
+Compass,Jeep,2007,2869.34
+B-Series,Mazda,1998,5440.30
+Accord,Honda,1986,5589.65
+Continental,Lincoln,1989,3154.08
+9-7X,Saab,2008,2018.60
+V90,Volvo,1997,5797.95
+Montego,Mercury,2006,2788.42
+Camry,Toyota,1999,5444.96
+5000S,Audi,1986,2231.43
+Charger,Dodge,1999,3686.81
+Grand Caravan,Dodge,2000,4272.89
+Esprit,Lotus,1988,2250.24
+Edge,Ford,2011,3435.50
+Baja,Subaru,2005,2417.21
+Protege,Mazda,2000,2621.66
+S4,Audi,2010,4420.76
+SRX,Cadillac,2010,5469.89
+GTO,Pontiac,1966,4810.85
+Pajero,Mitsubishi,1997,3667.38
+R32,Volkswagen,2008,5783.23
+Corvette,Chevrolet,2010,5556.61
+Bronco II,Ford,1989,2974.03
+Maxima,Nissan,1995,4369.57
+S70,Volvo,1998,3180.12
+XC70,Volvo,2007,5640.99
+4000s Quattro,Audi,1986,2998.02
+Grand Prix,Pontiac,2003,5140.76
+Supra,Toyota,1997,5757.77
+i-290,Isuzu,2007,4401.37
+Maxima,Nissan,2007,2590.61
+TrailBlazer,Chevrolet,2002,4855.88
+XJ Series,Jaguar,2000,4251.09
+Tiguan,Volkswagen,2012,2641.50
+Armada,Nissan,2009,3058.62
+Spider,Alfa Romeo,1993,4245.78
+F250,Ford,2003,2806.99
+F450,Ford,2012,3652.96
+E250,Ford,2008,2269.39
+Riviera,Buick,1995,4466.85
+Corvette,Chevrolet,2003,5751.26
+Cayman,Porsche,2008,2837.46
+Express 2500,Chevrolet,1998,3170.93
+XLR,Cadillac,2004,2480.95
+Tahoe,Chevrolet,2009,4059.32
+del Sol,Honda,1996,3549.27
+Savana 3500,GMC,2012,2815.01
+CR-X,Honda,1988,2707.79
+G35,Infiniti,2006,3043.82
+FX,Infiniti,2010,5718.87
+E-Class,Mercedes-Benz,1988,5418.82
+Rodeo,Isuzu,2001,2768.12
+Landaulet,Maybach,2010,5469.98
+Camry,Toyota,1998,5854.52
+TSX,Acura,2012,2216.02
+Golf,Volkswagen,1976,5771.02
+GT-R,Nissan,2009,3140.17
+Arnage,Bentley,2005,2205.87
+Fit,Honda,2009,2619.97
+Viper,Dodge,2004,2942.56
+Accord Crosstour,Honda,2011,3667.23
+C70,Volvo,2010,2392.27
+Range Rover,Land Rover,2011,3314.67
+Rabbit,Volkswagen,2010,2959.15
+GTI,Volkswagen,2006,5347.41
+Boxster,Porsche,2010,2230.83
+Avalanche 2500,Chevrolet,2006,4368.03
+G,Infiniti,2006,5382.53
+Grand Marquis,Mercury,1999,2032.62
+Tacoma,Toyota,1997,2498.35
+Escalade EXT,Cadillac,2010,2394.20
+SL-Class,Mercedes-Benz,2001,5349.42
+Prelude,Honda,1995,2095.84
+S10 Blazer,Chevrolet,1992,3249.30
+Ridgeline,Honda,2007,3089.94
+DB9,Aston Martin,2005,2527.01
+Tundra,Toyota,2001,3843.65
+Jetta,Volkswagen,2009,2240.31
+Silverado 3500,Chevrolet,2003,5940.75
+Chariot,Mitsubishi,1985,3464.49
+2500 Club Coupe,GMC,1998,3401.63
+Armada,Nissan,2006,4631.82
+Escalade,Cadillac,2009,4568.30
+Cougar,Mercury,1997,5648.69
+G,Infiniti,1995,2047.33
+Thunderbird,Ford,1994,2073.67
+B9 Tribeca,Subaru,2007,3357.71
+Tracker,Chevrolet,1998,4924.83
+Continental,Lincoln,1991,5777.22
+240SX,Nissan,1992,5392.84
+Civic GX,Honda,2003,3685.92
+Aveo,Chevrolet,2006,5867.42
+Sephia,Kia,1995,5369.24
+S80,Volvo,2000,4044.20
+Explorer Sport Trac,Ford,2008,5249.25
+Stratus,Dodge,1995,2258.86
+Grand Am,Pontiac,1996,2985.48
+228,Maserati,1989,5113.63
+GT-R,Nissan,2011,2493.57
+Viper,Dodge,1994,4280.31
+Z8,BMW,2000,5322.63
+Forester,Subaru,2008,4524.09
+Pajero,Mitsubishi,1989,4645.55
+Escape,Ford,2008,4952.87
+Express 2500,Chevrolet,2008,3239.58
+Econoline E250,Ford,1993,5000.53
+929,Mazda,1995,3584.48
+3000GT,Mitsubishi,1995,2176.51
+L-Series,Saturn,2004,3714.13
+LR4,Land Rover,2010,3656.22
+3500 Club Coupe,GMC,1997,4424.72
+LSS,Oldsmobile,1997,3118.73
+SX4,Suzuki,2007,4678.87
+Caravan,Dodge,2008,2145.97
+Trooper,Isuzu,1994,4096.36
+Elise,Lotus,2006,5191.08
+Thunderbird,Ford,1990,2321.46
+CTS,Cadillac,2010,4363.41
+Sonoma,GMC,1993,4212.48
+Corvette,Chevrolet,1996,5136.03
+Prius,Toyota,2004,5932.76
+S6,Audi,2010,2105.75
+Sorento,Kia,2009,5451.43
+Landaulet,Maybach,2011,2205.96
+Diamante,Mitsubishi,2005,2591.43
+200,Audi,1989,3785.71
+GTI,Volkswagen,1998,5227.77
+Edge,Ford,2009,5261.55
+Mazda6 5-Door,Mazda,2006,5029.36
+RX,Lexus,2011,3283.17
+Reatta,Buick,1988,2669.54
+Escort,Ford,2001,4930.87
+Vandura G1500,GMC,1995,5384.33
+62,Maybach,2009,2918.46
+Corsica,Chevrolet,1996,3178.91
+F-Series Super Duty,Ford,2011,5814.25
+Outback,Subaru,2000,5123.42
+200,Chrysler,2011,4637.16
+Suburban 2500,Chevrolet,2011,3821.50
+Mazda3,Mazda,2005,2677.52
+Odyssey,Honda,2005,4668.20
+C-Class,Mercedes-Benz,1999,4511.32
+Hombre Space,Isuzu,2000,5036.12
+Venture,Chevrolet,2000,4660.82
+Fusion,Ford,2008,4132.96
+Savana 1500,GMC,2011,4727.63
+Avalon,Toyota,2011,3702.74
+XF,Jaguar,2011,3587.95
+SC,Lexus,1996,5560.79
+Pajero,Mitsubishi,1992,5879.97
+L300,Mitsubishi,1989,5620.96
+S8,Audi,2003,4851.90
+Bel Air,Chevrolet,1967,5378.72
+Mariner,Mercury,2006,5100.81
+Grand Prix,Pontiac,1964,5866.22
+Roadster,Tesla,2012,3733.38
+LX,Lexus,1999,5125.29
+Ram 1500 Club,Dodge,2001,2373.59
+S-Class,Mercedes-Benz,1995,3118.25
+Space,Isuzu,1992,3197.79
+Wrangler,Jeep,2008,2517.76
+Bonneville,Pontiac,2002,4491.47
+Silhouette,Oldsmobile,2003,2250.87
+G8,Pontiac,2008,3477.07
+GTO,Pontiac,2005,3524.75
+Swift,Suzuki,1997,5431.30
+370Z,Nissan,2011,5444.92
+M-Class,Mercedes-Benz,2012,5080.23
+Jetta,Volkswagen,1998,4102.90
+Intrigue,Oldsmobile,1998,2884.38
+DTS,Cadillac,2010,5538.53
+New Beetle,Volkswagen,2004,4842.26
+Forester,Subaru,2006,4925.96
