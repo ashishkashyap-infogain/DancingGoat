@@ -1,4 +1,5 @@
 ﻿using Business.Identity.Models;
+using CMS.Membership;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Linq;
@@ -67,7 +68,7 @@ namespace WebApi.Controllers
         // POST api/Account/Register
         [HttpPost]
         [AllowAnonymous]
-        [Route("Login")]
+        [Route("Token")]
 
         public async Task<IHttpActionResult> Login(LoginModel userModel)
         {
@@ -75,8 +76,8 @@ namespace WebApi.Controllers
             //{
             //    return BadRequest(ModelState);
             //}
+            //AuthorizationServerProvider.Gra
             //DubaiCultureUser result = await _repo.FindUser(userModel.UserName, userModel.Password);
-            //return Ok();
             //using (AuthRepository _repo = new AuthRepository())
             //{
             //    DubaiCultureUser user = await _repo.FindUser(userModel.UserName, userModel.Password);
@@ -97,6 +98,23 @@ namespace WebApi.Controllers
         {
             Task<DubaiCultureUser> user = _repo.GetUserByEmail(email);
             return new UserDetails<DubaiCultureUser>
+            {
+                StatusCode = HttpStatusCode.OK,
+                Success = true,
+                Message = "User Details",
+                User = user
+            };
+        }
+
+        [HttpGet]
+        [Authorize]
+        [Route("GetCurrentUser")]
+
+        public UserDetails<DubaiCultureUser> GetCurrentUser()
+        {
+            //Task<DubaiCultureUser> user = _repo.GetUserByEmail
+            var user = MembershipContext.AuthenticatedUser;
+            return new CurrentUser
             {
                 StatusCode = HttpStatusCode.OK,
                 Success = true,
@@ -144,4 +162,6 @@ namespace WebApi.Controllers
             return null;
         }
     }
+
+    
 }
