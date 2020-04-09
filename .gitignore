@@ -272,7 +272,7 @@ CMS/App_Themes/IntranetPortal*
 CMS/App_Themes/PersonalSite
 
 # Starter site ASPX templates
-CMS/CMSTemplates/CorporateSite
+#CMS/CMSTemplates/CorporateSite
 
 # Starter site media libraries
 CMS/CommunitySite
