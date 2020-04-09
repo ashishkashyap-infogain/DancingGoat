@@ -1,6 +1,7 @@
 ﻿using Business.DependencyInjection;
 using Business.Dto.Coffee;
 using Business.Repository.Coffee;
+using CMS.Base;
 using CMS.DocumentEngine;
 using CMS.DocumentEngine.Types.DancingGoatMvc;
 using CMS.Ecommerce;
@@ -58,7 +59,7 @@ namespace WebApi.Controllers
 
         [HttpPost]
         [Route("Create")]
-        public Response<SKUTreeNode> createCoffee(CoffeeProductDto coffeeProduct)
+        public Response<SKUTreeNode> CreateCoffee(CoffeeProductDto coffeeProduct)
         {
             try
             {
@@ -147,6 +148,72 @@ namespace WebApi.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("Update")]
+        public Response<SKUTreeNode> UpdateCoffee(CoffeeProductDto coffeeProduct)
+        {
+            try
+            {
+                string productType = coffeeProduct.Sku.ProductType;
+                // Gets the product
+                SKUInfo updateProduct = SKUInfoProvider.GetSKUInfo(coffeeProduct.Sku.SKUID);
+                if (updateProduct != null)
+                {
+                    // Updates the product properties
+                    updateProduct.SKUName = updateProduct.SKUName;
+                    updateProduct.SKUNumber = coffeeProduct.Sku.SKUNumber;
+                    updateProduct.SKUPrice = coffeeProduct.Sku.SKUPrice;
+                    updateProduct.SKUEnabled = coffeeProduct.Sku.SKUEnabled;
 
+                    // Saves the changes to the database
+                    SKUInfoProvider.SetSKUInfo(updateProduct);
+                }
+                // Gets a TreeProvider instance
+                TreeProvider tree = new TreeProvider(MembershipContext.AuthenticatedUser);
+
+                // Gets the parent page
+                TreeNode node = tree.SelectNodes("DancingGoatMvc.ProductSection")
+                    .Path("/Products/" + productType + "s/"+coffeeProduct.Sku.SKUName)
+                    .OnCurrentSite()
+                    .FirstOrDefault();
+
+                if (node != null)
+                {
+                    //Sets a value for a field of the given product page type
+                    PropertyInfo[] properties = coffeeProduct.Coffee.GetType().GetProperties();
+                    foreach (PropertyInfo pi in properties)
+                    {
+                        node.SetValue(pi.Name, pi.GetValue(coffeeProduct.Coffee, null));
+                    }
+                    // Saves the product page to the database
+                    DocumentHelper.UpdateDocument(node, tree);
+                    return new Response<SKUTreeNode>
+                    {
+                        StatusCode = HttpStatusCode.OK,
+                        Success = true,
+                        Message = "Product updated Successfully.",
+                        Data = null
+                    };
+                }
+                return new Response<SKUTreeNode>
+                {
+                    StatusCode = HttpStatusCode.InternalServerError,
+                    Success = false,
+                    Message = "Product type name is not correct.",
+                    Data = null
+                };
+            }
+            catch (Exception ex)
+            {
+                EventLogProvider.LogException("UpdateProduct", ex.StackTrace, ex);
+                return new Response<SKUTreeNode>
+                {
+                    StatusCode = HttpStatusCode.InternalServerError,
+                    Success = false,
+                    Message = ex.Message,
+                    Data = null
+                };
+            }
+        }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Business.Dto.Coffee;
 using Business.Services.Context;
 using Business.Services.Query;
+using CMS.Ecommerce;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,17 +10,28 @@ namespace Business.Repository.Coffee
 {
     public class CoffeeRepository : ICoffeeRepository
     {
-        public CoffeeRepository()
-        {
-
-        }
-        //private readonly string[] _coffeeColumns =
+        //public CoffeeRepository()
         //{
-        //    // Defines database columns for retrieving data
-        //    // NodeGuid is retrieved automatically
-        //    "NodeAlias", "CoffeeFarm", "CoffeeCountry", "CoffeeVariety", "CoffeeProcessing",
-        //    "CoffeeAltitude", "CoffeeIsDecaf",
-        //};
+
+        //}
+        private readonly string[] _coffeeColumns =
+        {
+            // Defines database columns for retrieving data
+            // NodeGuid is retrieved automatically
+            "NodeAlias", "CoffeeFarm", "CoffeeCountry", "CoffeeVariety", "CoffeeProcessing",
+            "CoffeeAltitude", "CoffeeIsDecaf",
+        };
+
+        public CoffeeDto GetCoffee(Guid nodeGuid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<CoffeeDto> GetCoffees()
+        {
+            throw new NotImplementedException();
+        }
+        
 
         //private Func<CMS.DocumentEngine.Types.DancingGoatMvc.Coffee, CoffeeDto> CoffeeDtoSelect => coffee => new CoffeeDto()
         //{
@@ -40,7 +52,8 @@ namespace Business.Repository.Coffee
 
         //public IEnumerable<CoffeeDto> GetCoffees()
         //{
-        //    return DocumentQueryService.GetDocuments<CMS.DocumentEngine.Types.DancingGoatMvc.Coffee>()
+        //    DocumentQueryService ser = new DocumentQueryService();
+        //        return DocumentQueryService.GetDocuments<CMS.DocumentEngine.Types.DancingGoatMvc.Coffee>()
         //        .AddColumns(_coffeeColumns)
         //        .Select(CoffeeDtoSelect);
         //}
@@ -51,16 +64,7 @@ namespace Business.Repository.Coffee
         //        .AddColumns(_coffeeColumns)
         //        .Select(CoffeeDtoSelect)
         //        .FirstOrDefault();
-        //}
-        public CoffeeDto GetCoffee(Guid nodeGuid)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<CoffeeDto> GetCoffees()
-        {
-            throw new NotImplementedException();
-        }
+        //}       
     }
 
     //public class CoffeeRepository : BaseRepository, ICoffeeRepository

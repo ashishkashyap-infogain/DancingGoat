@@ -285,6 +285,9 @@
     <Reference Include="LinqToTwitter.net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=957107be965c25d9, processorArchitecture=MSIL">
       <HintPath>..\packages\linqtotwitter.4.0.0\lib\net45\LinqToTwitter.net.dll</HintPath>
     </Reference>
+    <Reference Include="LiquidTechnologies.XmlObjects.Runtime, Version=18.0.4.9932, Culture=neutral, PublicKeyToken=64bee40f6e1c14f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiquidTechnologies.XmlObjects.Runtime.18.0.4\lib\net45\LiquidTechnologies.XmlObjects.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Lucene.Net.v3, Version=3.0.3.0, Culture=neutral, PublicKeyToken=834b12a258f213f9, processorArchitecture=MSIL">
       <HintPath>..\packages\Kentico.Libraries.12.0.59\lib\net461\Lucene.Net.v3.dll</HintPath>
     </Reference>
@@ -563,12 +566,17 @@
     <Compile Include="DependencyInjection\CmsRegistrationSource.cs" />
     <Compile Include="DependencyInjection\DependencyInjection.cs" />
     <Compile Include="DependencyInjection\IBusinessDependencies.cs" />
+    <Compile Include="Dto\Brewer\BrewerDto.cs" />
+    <Compile Include="Dto\ClassSchema\Class1.cs" />
+    <Compile Include="Dto\ClassSchema\Class2.cs" />
+    <Compile Include="Dto\ClassSchema\ClassSchemaDto.cs" />
     <Compile Include="Dto\Coffee\CoffeeDto.cs" />
     <Compile Include="Dto\Country\CountryDto.cs" />
     <Compile Include="Dto\Culture\CultureDto.cs" />
     <Compile Include="Dto\IDto.cs" />
     <Compile Include="Dto\MediaLibrary\MediaLibraryFileDto.cs" />
     <Compile Include="Dto\Page\PageMetadataDto.cs" />
+    <Compile Include="Dto\Product\ProductDto.cs" />
     <Compile Include="Dto\Search\SearchResultDto.cs" />
     <Compile Include="Generated\Forms\FloridaEventRegistration.generated.cs" />
     <Compile Include="Generated\Pages\CMS\File.generated.cs" />
@@ -605,6 +613,8 @@
     <Compile Include="Generated\Pages\DancingGoatMvc\SocialLinkProvider.generated.cs" />
     <Compile Include="Generated\Products\DancingGoatMvc\Brewer.generated.cs" />
     <Compile Include="Generated\Products\DancingGoatMvc\BrewerProvider.generated.cs" />
+    <Compile Include="Generated\Products\DancingGoatMvc\Car.generated.cs" />
+    <Compile Include="Generated\Products\DancingGoatMvc\CarProvider.generated.cs" />
     <Compile Include="Generated\Products\DancingGoatMvc\Coffee.generated.cs" />
     <Compile Include="Generated\Products\DancingGoatMvc\CoffeeProvider.generated.cs" />
     <Compile Include="Generated\Products\DancingGoatMvc\Laptop.generated.cs" />

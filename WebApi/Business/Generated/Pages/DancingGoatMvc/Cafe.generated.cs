@@ -217,6 +217,23 @@ namespace CMS.DocumentEngine.Types.DancingGoatMvc
 
 
 		/// <summary>
+		/// Test.
+		/// </summary>
+		[DatabaseField]
+		public string Test
+		{
+			get
+			{
+				return ValidationHelper.GetString(GetValue("Test"), @"");
+			}
+			set
+			{
+				SetValue("Test", value);
+			}
+		}
+
+
+		/// <summary>
 		/// Gets an object that provides extended API for working with Cafe fields.
 		/// </summary>
 		[RegisterProperty]
@@ -403,6 +420,22 @@ namespace CMS.DocumentEngine.Types.DancingGoatMvc
 				set
 				{
 					mInstance.CafeAdditionalNotes = value;
+				}
+			}
+
+
+			/// <summary>
+			/// Test.
+			/// </summary>
+			public string Test
+			{
+				get
+				{
+					return mInstance.Test;
+				}
+				set
+				{
+					mInstance.Test = value;
 				}
 			}
 		}

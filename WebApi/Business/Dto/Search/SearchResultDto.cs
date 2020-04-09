@@ -34,7 +34,7 @@ namespace Business.Dto.Search
         //     Gets or sets the ObjectType of a result item.
         public string Type { get; set; }
     }
-    public class Facets
+    public class FacetsData
     {
         public string field { get; set; }
         public string label { get; set; }
@@ -50,5 +50,23 @@ namespace Business.Dto.Search
         public string type { get; set; }
         public string value { get; set; }
         public int count { get; set; }
+    }
+    public class Facets
+    {
+        public string CoffeeProcessing { get; set; }
+    }
+
+    public class Price
+    {
+        public double MinPrice { get; set; }
+        public double MaxPrice { get; set; }
+    }
+
+    public class Filter
+    {
+        public string SearchText { get; set; }
+        public string Category { get; set; }
+        public Facets facets { get; set; }
+        public Price price { get; set; }
     }
 }

@@ -1,5 +1,4 @@
-﻿using Business.Dto.Coffee;
-using Business.Dto.Search;
+﻿using Business.Dto.Search;
 using CMS.DocumentEngine;
 using CMS.DocumentEngine.Types.DancingGoatMvc;
 using CMS.Ecommerce;
@@ -14,7 +13,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Reflection;
 using System.Web.Http;
 using WebApi.Models;
 
@@ -141,12 +139,12 @@ namespace WebApi.Controllers
 
         [HttpPost]
         [Route("Create")]
-        public Response<SKUTreeNode> createCoffee(Object createProduct)
+        public Response<SKUTreeNode> CreateProduct([FromBody]object createProduct)
         {
-            var product =  (ProductInfo<CoffeeDto>)createProduct;
             try
             {
-                string productType = product.Sku.ProductType;
+                dynamic product = JsonConvert.DeserializeObject(Convert.ToString(createProduct));
+                string productType = (string)product.ProductType;
                 // Gets a department
                 DepartmentInfo department = DepartmentInfoProvider.GetDepartmentInfo(productType + "s", SiteContext.CurrentSiteName);
 
@@ -154,11 +152,12 @@ namespace WebApi.Controllers
                 SKUInfo newProduct = new SKUInfo
                 {
                     // Sets the product properties
-                    SKUName = product.Sku.SKUName,
-                    SKUNumber = product.Sku.SKUNumber,
-                    SKUPrice = product.Sku.SKUPrice,
-                    SKUEnabled = product.Sku.SKUEnabled
+                    SKUName = (string)product.SKUName,
+                    SKUNumber = (string)product.SKUNumber,
+                    SKUPrice = (decimal)product.SKUPrice,
+                    SKUEnabled = (bool)product.SKUEnabled
                 };
+
                 if (department != null)
                 {
                     newProduct.SKUDepartmentID = department.DepartmentID;
@@ -166,14 +165,13 @@ namespace WebApi.Controllers
                 newProduct.SKUSiteID = SiteContext.CurrentSiteID;
 
                 // Saves the product to the database
-                // Note: Only creates the SKU object. You also need to create a connected product page to add the product to the site.
                 SKUInfoProvider.SetSKUInfo(newProduct);
 
                 // Gets a TreeProvider instance
                 TreeProvider tree = new TreeProvider(MembershipContext.AuthenticatedUser);
 
                 // Gets the parent page
-                TreeNode parent = tree.SelectNodes("DancingGoatMvc.ProductSection")
+                TreeNode parent = tree.SelectNodes(ProductSection.CLASS_NAME)
                     .Path("/Products/" + productType + "s")
                     .OnCurrentSite()
                     .FirstOrDefault();
@@ -181,24 +179,20 @@ namespace WebApi.Controllers
                 if ((parent != null) && (newProduct != null))
                 {
                     // Creates a new product page of the 'CMS.Product' type
-                    SKUTreeNode node = (SKUTreeNode)TreeNode.New(Coffee.CLASS_NAME, tree);
+                    SKUTreeNode node = (SKUTreeNode)TreeNode.New(SiteContext.CurrentSiteName + "." + productType, tree);
 
                     // Sets the product page properties
-                    node.DocumentSKUName = product.Sku.SKUName;
+                    node.DocumentSKUName = (string)product.SKUName;
                     node.DocumentCulture = LocalizationContext.PreferredCultureCode;
-
                     //Sets a value for a field of the given product page type
-
-                    PropertyInfo[] properties = product.CustomProperties.GetType().GetProperties();
-                    foreach (PropertyInfo pi in properties)
+                    foreach (dynamic obj in product.CustomProperties)
                     {
-                        node.SetValue(pi.Name, pi.GetValue(product.CustomProperties, null));
+                        node.SetValue(obj.Name, (string)obj.Value, null);
                     }
-
                     // Assigns the product to the page
                     node.NodeSKUID = newProduct.SKUID;
 
-                    node.DocumentName = product.Sku.SKUName;
+                    node.DocumentName = (string)product.SKUName;
 
                     // Saves the product page to the database
                     node.Insert(parent);
@@ -231,74 +225,65 @@ namespace WebApi.Controllers
             }
         }
 
-        
+        [HttpPost]
+        [Route("Delete")]
+        public Response<SKUTreeNode> DeleteProduct(string skuGuid)
+        {
+            try
+            {
+                SKUInfo deleteProduct = SKUInfoProvider.GetSKUInfo(Guid.Parse(skuGuid));
+                if (deleteProduct != null)
+                {
+                    TreeNode productPage = DocumentHelper.GetDocuments()
+                .AsEnumerable()
+                .Where(x => x.NodeSKUID == deleteProduct.SKUID)
+                .FirstOrDefault();
+                    if (productPage != null)
+                    {
+                        // Deletes the product
+                        SKUInfoProvider.DeleteSKUInfo(deleteProduct);
+                        // Deletes the product page
+                        DocumentHelper.DeleteDocument(productPage);
+                        return new Response<SKUTreeNode>
+                        {
+                            StatusCode = HttpStatusCode.OK,
+                            Success = true,
+                            Message = "Product deleted Successfully.",
+                            Data = null
+                        };
+                    }
+                    return new Response<SKUTreeNode>
+                    {
+                        StatusCode = HttpStatusCode.NotFound,
+                        Success = false,
+                        Message = "Product does not exist.",
+                        Data = null
+                    };
+                }
+                else
+                {
+                    return new Response<SKUTreeNode>
+                    {
+                        StatusCode = HttpStatusCode.NotFound,
+                        Success = false,
+                        Message = "Product does not exist.",
+                        Data = null
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                EventLogProvider.LogException("DeleteProduct", ex.StackTrace, ex);
+                return new Response<SKUTreeNode>
+                {
+                    StatusCode = HttpStatusCode.InternalServerError,
+                    Success = false,
+                    Message = ex.Message,
+                    Data = null
+                };
+            }
+        }
 
-        //private void CreateProduct(string productType, DataRow product)
-        //{
-        //    try
-        //    {
-        //        string productName = ValidationHelper.GetString(product["Name"], string.Empty);
-
-
-        //        Creates a new product object
-        //       SKUInfo newProduct = new SKUInfo
-        //       {
-        //             Sets the product properties
-        //            SKUName = productName,
-        //            SKUNumber = productName,
-        //            SKUPrice = ValidationHelper.GetDecimal(product["Price"], decimal.Zero),
-        //            SKUEnabled = true
-        //       };
-
-        //        newProduct.SKUSiteID = SiteContext.CurrentSiteID;
-
-        //        Saves the product to the database
-        //         Note: Only creates the SKU object.You also need to create a connected product page to add the product to the site.
-        //       SKUInfoProvider.SetSKUInfo(newProduct);
-
-        //        Gets a TreeProvider instance
-        //        TreeProvider tree = new TreeProvider(MembershipContext.AuthenticatedUser);
-
-        //        Gets the parent page
-        //        TreeNode parent = tree.SelectNodes("DancingGoatMvc.ProductSection")
-        //            .Path("/Products/" + productType + "s")
-        //            .OnCurrentSite()
-        //            .FirstOrDefault();
-
-        //        if ((parent != null) && (newProduct != null))
-        //        {
-        //            Creates a new product page of the 'CMS.Product' type
-        //           SKUTreeNode node = (SKUTreeNode)TreeNode.New("DancingGoatMvc." + productType, tree);
-
-        //            Sets the product page properties
-        //            node.DocumentSKUName = productName;
-        //            node.DocumentCulture = LocalizationContext.PreferredCultureCode;
-
-        //            Sets a value for a field of the given product page type
-
-        //           node.SetValue("CoffeeFarm", "Farm 1");
-        //            node.SetValue("CoffeeCountry", "India");
-        //            node.SetValue("CoffeeVariety", "Criolla, Caturra");
-        //            node.SetValue("CoffeeProcessing", "Washed");
-        //            node.SetValue("CoffeeAltitude", 4110);
-
-        //            node.SetValue("Company", ValidationHelper.GetString(product["Company"], string.Empty));
-        //            node.SetValue("ModelYear", ValidationHelper.GetString(product["ModelYear"], string.Empty));
-
-        //            Assigns the product to the page
-        //            node.NodeSKUID = newProduct.SKUID;
-
-        //            node.DocumentName = productName;
-
-        //            Saves the product page to the database
-        //            node.Insert(parent);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        EventLogProvider.LogException("CreateProduct", ex.StackTrace, ex);
-        //    }
-        //}
         private List<FacetsData> GetCarFacets(string category)
         {
             List<FacetsData> facets = new List<FacetsData>();
@@ -466,6 +451,50 @@ namespace WebApi.Controllers
                 })
                 .ToList();
         }
+        [HttpPost]
+        [Route("Allproducts")]
+        public Response<ProductListDto> GetAllProductsList()
+        {
+            try
+            {
+                List<ProductListDto> data = DocumentHelper.GetDocuments()
+                .OrderBy("NodeOrder")
+                .Types("DancingGoatMvc.Brewer", "DancingGoatMvc.Coffee", "DancingGoatMvc.Mobile", "DancingGoatMvc.Laptop", "DancingGoatMvc.Car")
+                .AsEnumerable()
+                .Select(x =>
+                {
+                    return new ProductListDto()
+                    {
+                        SkuID = x.NodeSKUID,
+                        SkuGuid = ValidationHelper.GetGuid(x.GetValue("SKUGUID"), Guid.Empty),
+                        Image = @URLHelper.GetAbsoluteUrl(ValidationHelper.GetString(x.GetValue("SKUImagePath"), string.Empty)).Replace("/WebApi", string.Empty),
+                        Date = ValidationHelper.GetDateTime(x.GetValue("DocumentCreatedWhen"), DateTime.MinValue),
+                        Content = ValidationHelper.GetString(x.GetValue("DocumentContent"), string.Empty),
+                        Title = x.DocumentName,
+                        Price = ValidationHelper.GetDouble(x.GetValue("SKUPrice"), 0.00),
+                        Type = ValidationHelper.GetString(x.GetValue("ClassName"), string.Empty).Replace('.', '-')
+                    };
+                })
+                .ToList();
+                return new Response<ProductListDto>
+                {
+                    StatusCode = HttpStatusCode.OK,
+                    Success = true,
+                    Message = "All products Data",
+                    Data = data
+                };
 
+            }
+            catch (Exception ex)
+            {
+                return new Response<ProductListDto>
+                {
+                    StatusCode = HttpStatusCode.InternalServerError,
+                    Success = true,
+                    Message = ex.Message,
+                    Data = null
+                };
+            }
+        }
     }
 }
